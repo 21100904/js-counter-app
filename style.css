@@ -23,6 +23,12 @@ body{
     text-align: center;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 .buttons button {
     background-color: #007bff;
     color: #fff;
@@ -32,4 +38,9 @@ body{
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+    color: white;
 }
